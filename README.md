@@ -62,10 +62,10 @@ The system applies **Machine Learning techniques** to:
 
 ## **Project Structure**
 
-AI_NIDS_Project/
-├── app.py
-├── requirements.txt
-└── README.md
+AI_NIDS_Project/                                                                                                       
+├── nids_main.py                                                                                                              
+├── requirements.txt                                                                                                          
+└── README.md                                                                                                                            
 
 
 ---
@@ -87,19 +87,17 @@ The architecture allows **real-world dataset integration** without changing core
 
 ---
 
----
-
 ## **Installation & Execution**
 
 ### **Install Dependencies**
-pip install -r requirements.txt
-
-Run the Application
-streamlit run app.py
-
-Access the Dashboard
-http://localhost:8501
-
+pip install -r requirements.txt                                                                                                                   
+                                                                                                                                                         
+Run the Application                                                                                                              
+streamlit run app.py                                                                               
+                                                                                                                
+Access the Dashboard                                                                                                           
+http://localhost:8501                                                                                                                                      
+                                                                                                                                              
 ## **Demo**
 
 - **Demo Type:** Local Streamlit Dashboard  
