@@ -1,106 +1,104 @@
-AI-Powered Network Intrusion Detection System (NIDS)
+AI-Powered Network Intrusion Detection System
 
-A professional, AI-driven cybersecurity application designed to detect malicious network traffic in real time.
-This project applies Machine Learning techniques to network security, focusing on traffic analysis, anomaly detection, and interactive monitoring, making it suitable for internship evaluation, academic assessment, and portfolio presentation.
+A professional, Machine Learning–based cybersecurity application designed to monitor, analyze, and classify network traffic in real time.
+This project emphasizes intrusion detection, anomaly analysis, and practical AI workflows, making it suitable for internship evaluation, academic assessment, and portfolio showcasing.
 
-🔑 Key Highlights
+Key Highlights
 
-Machine Learning–based intrusion detection using Random Forest
+AI-driven intrusion detection using Random Forest
 
 Real-time traffic classification (Benign vs Malicious)
 
-Interactive Streamlit dashboard for monitoring and analysis
+Interactive Streamlit dashboard for monitoring
 
-Live traffic simulation for testing attack scenarios
+Live traffic simulation for attack testing
 
-Performance evaluation metrics (accuracy & confusion matrix)
+Performance evaluation using accuracy and confusion matrix
 
-Configurable model parameters (training split & number of trees)
+Configurable model parameters for experimentation
 
-Clean, modular, and readable code structure
+Clean, modular, and maintainable codebase
 
-❓ Problem Statement
+Problem Statement
 
-Traditional rule-based Intrusion Detection Systems (IDS) are limited in detecting modern and evolving cyberattacks such as DDoS and port scanning. These systems lack adaptability and often fail to identify abnormal traffic patterns in real time.
+Traditional rule-based Intrusion Detection Systems lack adaptability and struggle to detect modern cyber threats such as DDoS attacks and port scanning. Manual monitoring approaches are inefficient and error-prone in dynamic network environments.
 
-There is a need for an intelligent, data-driven solution that can learn from network behavior and accurately detect potential threats.
+This project addresses the need for an intelligent, automated, and data-driven intrusion detection system.
 
-💡 Proposed Solution
+Proposed Solution
 
-This project implements an AI-powered Network Intrusion Detection System that:
+The system applies Machine Learning techniques to:
 
-Learns network traffic patterns using Machine Learning
+Learn network traffic patterns automatically
 
-Identifies malicious behavior automatically
+Detect abnormal and malicious behavior
 
-Provides real-time insights through an interactive dashboard
+Provide real-time feedback through a dashboard
 
-Supports scalability for real-world dataset integration
+Support future integration with real-world datasets
 
-🧠 Core Concepts & Fundamentals Used
+Core Concepts & Fundamentals Used
 
 Machine Learning Classification
 
 Random Forest Algorithm
 
-Feature-based traffic analysis
+Network Traffic Feature Analysis
 
-Model training and evaluation
+Model Training and Evaluation
 
-Confusion matrix interpretation
+Confusion Matrix Interpretation
 
-Real-time prediction workflows
+Real-Time Prediction Workflow
 
-Interactive data visualization
-
-🛠️ Technology Stack
+Technology Stack
 
 Programming Language: Python
 
-Machine Learning: Scikit-learn (Random Forest Classifier)
+Machine Learning: Scikit-learn
 
 Data Processing: Pandas, NumPy
 
 Visualization: Matplotlib, Seaborn
 
-Web Interface: Streamlit
+Web Framework: Streamlit
 
-📂 Project Structure
+Project Structure
 AI_NIDS_Project/
 ├── app.py
 ├── requirements.txt
 └── README.md
 
-⚙️ Application Workflow
+Application Workflow
 
-Synthetic network traffic data is generated to simulate real-world conditions.
+Generate synthetic network traffic data to simulate real-world conditions.
 
-Data is split into training and testing sets.
+Split the data into training and testing sets.
 
-A Random Forest model is trained on network features.
+Train a Random Forest classifier on network traffic features.
 
-Model performance is evaluated using accuracy and confusion matrix.
+Evaluate model performance using accuracy and confusion matrix.
 
-Users can input live traffic parameters to analyze and detect intrusions.
+Analyze live traffic inputs to detect intrusions.
 
-📊 Dataset Strategy
+Dataset Strategy
 
-For demonstration and evaluation purposes, the system uses simulated network traffic data aligned with the CIC-IDS-2017 dataset structure.
-The architecture supports seamless integration of real-world datasets when required.
+For demonstration purposes, the system uses simulated network traffic data aligned with the CIC-IDS-2017 dataset structure.
+The design allows real-world dataset integration without changing core logic.
 
-🚀 Installation & Execution
+Installation & Execution
 pip install -r requirements.txt
 streamlit run app.py
 
 
-Access the dashboard at:
+Access the application at:
 http://localhost:8501
 
-🎯 Demo Overview
+Demo
 
 Demo Type: Local Streamlit Dashboard
 
-Demonstrates:
+Includes:
 
 Model training
 
@@ -108,23 +106,23 @@ Performance metrics
 
 Live intrusion detection
 
-🎓 Internship Relevance
+Internship Relevance
 
-This project was developed as part of a Cyber Security Internship to demonstrate:
+This project demonstrates:
 
-Practical application of AI in cybersecurity
+Practical application of AI in Cybersecurity
 
-Understanding of intrusion detection systems
+Understanding of Intrusion Detection Systems
 
-End-to-end Machine Learning implementation
+End-to-end Machine Learning workflow
 
 Real-time monitoring and analysis skills
 
-✅ Conclusion
+Conclusion
 
-The AI-Powered Network Intrusion Detection System showcases how Machine Learning can significantly enhance network security by detecting malicious traffic accurately and efficiently. The project serves as a strong foundation for further research and real-world cybersecurity deployments.
+The AI-Powered Network Intrusion Detection System demonstrates how Machine Learning can significantly enhance network security by accurately identifying malicious traffic. The project provides a robust foundation for further research and real-world cybersecurity deployment.
 
-👤 Author
+Author
 
-Abhi Gandesri
+Gandesri Abhilash
 Cyber Security Intern
